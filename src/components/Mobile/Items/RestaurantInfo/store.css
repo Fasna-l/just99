@@ -1,0 +1,105 @@
+.store-single-coupon-block{
+	background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: rgb(184 184 184 / 20%) 0px 2px 8px 0px;
+    min-width: 175px;
+}
+
+.bg-zinc-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(244 244 245 / var(--tw-bg-opacity));
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.gap-3 {
+    gap: .75rem;
+}
+
+.items-center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+
+.bg-yellow-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(254 249 195 /1);
+}
+
+.border-css {
+    border: 1px solid #000000 !important;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.w-8 {
+    width: 2.5rem;
+}
+.h-8 {
+    height: 2.5rem;
+}
+
+.text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.gap-1 {
+    gap: .25rem;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-\[14px\] {
+    font-size: 14px;
+}
+
+.closing-banner {
+  background: linear-gradient(90deg, #ff4d4d, #ff884d); /* Red to Orange */
+
+  padding: 16px;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.closing-badge {
+  background: rgba(255,255,255,0.2);
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.alarm-icon-wrapper {
+  background: rgba(255,255,255,0.2);
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}

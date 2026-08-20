@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "124793670000",
+    "project_id": "webuser-39bea",
+    "storage_bucket": "webuser-39bea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124793670000:android:5bba71446f5011486b27b5",
+        "android_client_info": {
+          "package_name": "com.lighthusky.Eatbrorr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124793670000-g5pgpqdkdane2ek6ks1vskjo8f0tvapb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkmgMHNSKneaqE84LO0omt_9qyCtgJrHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124793670000-g5pgpqdkdane2ek6ks1vskjo8f0tvapb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124793670000:android:b38806468fcfc5876b27b5",
+        "android_client_info": {
+          "package_name": "in.Eatbro.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124793670000-g5pgpqdkdane2ek6ks1vskjo8f0tvapb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkmgMHNSKneaqE84LO0omt_9qyCtgJrHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124793670000-g5pgpqdkdane2ek6ks1vskjo8f0tvapb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

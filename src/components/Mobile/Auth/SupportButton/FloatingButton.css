@@ -1,0 +1,19 @@
+.support-button {
+  position: fixed;
+  bottom: 7.5rem;
+  right: 1rem;
+  width: 60px; /* Equal width and height for a circle */
+  height: 60px; /* Equal width and height for a circle */
+  border-radius: 50%; /* Fully circular shape */
+  background-color: #000000; /* WhatsApp color */
+  color: rgb(255, 255, 255);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  z-index: 1000;
+}
+

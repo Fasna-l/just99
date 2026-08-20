@@ -1,0 +1,216 @@
+/* OrderScheduling - Simple & Clean UI */
+
+/* Schedule Button */
+.schedule-order-btn {
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 10px 15px;
+}
+
+.schedule-order-btn:hover {
+    border-color: #cb202d;
+    background: #f8f9ff;
+}
+
+.schedule-order-btn.has-schedule {
+    border-color: #10b981;
+    background: #fdf0f0;
+}
+
+.schedule-order-btn i.si-clock {
+    font-size: 1.1rem;
+    color: #cb202d;
+    margin-right: 8px;
+}
+
+.schedule-order-btn.has-schedule i.si-clock {
+    color: #10b981;
+}
+
+.schedule-order-btn span {
+    color: #333;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.schedule-order-btn .d-flex {
+    align-items: center;
+    width: 100%;
+}
+
+.schedule-order-btn .btn-sm {
+    background: #cb202d;
+    border: none;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.schedule-order-btn .btn-sm:hover {
+    background: #5a6fd6;
+}
+
+/* Dialog */
+.schedule-dialog {
+    border-radius: 16px 16px 0 0 !important;
+}
+
+.schedule-dialog .MuiPaper-root {
+    border-radius: 16px 16px 0 0 !important;
+}
+
+.schedule-dialog-title {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Day Slots */
+.day-slots-container {
+    padding: 15px;
+    background: #fafafa;
+}
+
+.day-slots {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.day-slots::-webkit-scrollbar {
+    display: none;
+}
+
+.day-slot {
+    flex-shrink: 0;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    min-width: 60px;
+}
+
+.day-slot:hover {
+    border-color: #cb202d;
+    background: #f8f9ff;
+}
+
+.day-slot.active {
+    background: #cb202d;
+    border-color: #cb202d;
+    color: #fff;
+}
+
+.day-slot .day-name {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 2px;
+}
+
+.day-slot .day-date {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.day-slot.active .day-name,
+.day-slot.active .day-date {
+    color: #fff;
+    opacity: 1;
+}
+
+/* Time Slots */
+.time-slots-container {
+    padding: 15px;
+    max-height: 45vh;
+    overflow-y: auto;
+}
+
+.time-slot {
+    display: block;
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+}
+
+.time-slot:hover {
+    border-color: #cb202d;
+    background: #f8f9ff;
+}
+
+.time-slot.selected {
+    background: #cb202d;
+    border-color: #cb202d;
+    color: #fff;
+}
+
+.time-slot.disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+/* Done Button */
+.done-btn-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 20px 20px;
+    background: #fff;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.08);
+}
+
+.done-btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.done-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+/* Empty State */
+.no-slots {
+    text-align: center;
+    padding: 30px;
+    color: #999;
+}
+
+.no-slots p {
+    margin: 0;
+    font-size: 0.9rem;
+}

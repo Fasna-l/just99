@@ -1,0 +1,415 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("https://fudode.in/assets/fonts/Gilroy-ExtraBold-Rupee.eot");
+    src: url("https://fudode.in/assets/fonts/Gilroy-ExtraBold-Rupee.eot?#iefix") format("embedded-opentype"), url("https://fudode.in/assets/fonts/Gilroy-ExtraBold-Rupee.woff2") format("woff2"), url("https://fudode.in/assets/fonts/Gilroy-ExtraBold-Rupee.woff") format("woff"), url("https://fudode.in/assets/fonts/Gilroy-ExtraBold-Rupee.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("https://fudode.in/assets/fonts/Gilroy-Medium-Rupee.eot");
+    src: url("https://fudode.in/assets/fonts/Gilroy-Medium-Rupee.eot?#iefix") format("embedded-opentype"), url("https://fudode.in/assets/fonts/Gilroy-Medium-Rupee.woff2") format("woff2"), url("https://fudode.in/assets/fonts/Gilroy-Medium-Rupee.woff") format("woff"), url("https://fudode.in/assets/fonts/Gilroy-Medium-Rupee.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("https://fudode.in/assets/fonts/Gilroy-Bold-Rupee.eot");
+    src: url("https://fudode.in/assets/fonts/Gilroy-Bold-Rupee.eot?#iefix") format("embedded-opentype"), url("https://fudode.in/assets/fonts/Gilroy-Bold-Rupee.woff2") format("woff2"), url("https://fudode.in/assets/fonts/Gilroy-Bold-Rupee.woff") format("woff"), url("https://fudode.in/assets/fonts/Gilroy-Bold-Rupee.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("https://fudode.in/assets/fonts/Gilroy-Medium-Rupee.eot");
+    src: url("https://fudode.in/assets/fonts/Gilroy-Medium-Rupee.eot?#iefix") format("embedded-opentype"), url("https://fudode.in/assets/fonts/Gilroy-Medium-Rupee.woff2") format("woff2"), url("https://fudode.in/assets/fonts/Gilroy-Medium-Rupee.woff") format("woff"), url("https://fudode.in/assets/fonts/Gilroy-Medium-Rupee.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("https://fudode.in/assets/fonts/Gilroy-SemiBold-Rupee.eot");
+    src: url("https://fudode.in/assets/fonts/Gilroy-SemiBold-Rupee.eot?#iefix") format("embedded-opentype"), url("https://fudode.in/assets/fonts/Gilroy-SemiBold-Rupee.woff2") format("woff2"), url("https://fudode.in/assets/fonts/Gilroy-SemiBold-Rupee.woff") format("woff"), url("https://fudode.in/assets/fonts/Gilroy-SemiBold-Rupee.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+/*!sc*/
+@font-face {
+    font-family: "Gilroy_Bold";
+    src: url("https://fudode.in/assets/fonts/Gilroy-Bold-Rupee.eot");
+    src: url("https://fudode.in/assets/fonts/Gilroy-Bold-Rupee.eot?#iefix") format("embedded-opentype"), url("https://fudode.in/assets/fonts/Gilroy-Bold-Rupee.woff2") format("woff2"), url("https://fudode.in/assets/fonts/Gilroy-Bold-Rupee.woff") format("woff"), url("https://fudode.in/assets/fonts/Gilroy-Bold-Rupee.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* Item page single Item */
+.item_name_gfdw {
+    font-family: Gilroy_Bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+    word-break: break-word;
+
+}
+
+.item_price_hhrtdgf {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 4px;
+
+}
+
+.item_price_span_hhrtdgf {
+
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.92);
+
+
+}
+
+.item_desc_xhjfgjq {
+    width: 12rem;
+    white-space: normal;
+    /* Ensures the text will wrap */
+    word-wrap: break-word;
+    /* Break long words if needed */
+    overflow-wrap: break-word;
+    /* Break overflowed words */
+}
+
+
+.item_old_price_span_hhdff {
+    text-decoration: line-through;
+    margin-right: 4px;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.45);
+
+}
+
+.veg-non-veg-badge-noimage_fhjksfk {
+    width: 1.3rem;
+}
+
+.flex_item_image_dajfgjah {
+    width: 156px;
+    height: 144px;
+    border-radius: 12px;
+}
+
+.item_button_dasjk {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(2, 6, 12, 0.15);
+    height: 40px;
+    border-radius: 8px;
+    width: 120px;
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-around;
+    box-shadow: rgba(40, 44, 63, 0.08) 0px 3px 8px;
+}
+
+.item_button_main_dasjk {
+    flex-direction: column;
+    display: flex;
+    /* Make the container a flex container */
+    justify-content: center;
+    /* Center items horizontally */
+    align-items: center;
+    /* Center items vertically */
+    position: relative;
+
+
+    bottom: 22px;
+    z-index: 1;
+}
+
+.add_button_sdahj {
+    width: 120px;
+    position: absolute;
+    inset: 0px;
+    transition: 100ms ease-in-out;
+    transform: translateY(0px);
+    text-align: center;
+    appearance: none;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    border-color: transparent;
+    outline: 0;
+    padding: 0;
+    text-align: left;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.customizable_item_text_fsf {
+    margin-top: 2px;
+    font-family: Gilroy;
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.45);
+
+
+}
+
+.btn_remove_dgjkf {
+
+    z-index: 1;
+    padding-left: 16px;
+    padding-right: 12px;
+    transition: 100ms ease-in-out;
+    transform: translateX(0px);
+    appearance: none;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    border-color: transparent;
+    outline: 0;
+    padding: 0;
+    text-align: left;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 30px;
+
+}
+
+.dGssTp {
+    font-family: Gilroy;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: rgb(27, 166, 114);
+}
+
+.item_image_adgnmand {
+    margin-left: 12px;
+    max-height: 164px;
+    min-width: 156px;
+}
+
+.addon_category_name_axjye {
+    display: flex;
+    padding: 8px 0px 16px;
+    font-family: Gilroy_Bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+}
+
+.addon_list_ajcjh {
+    padding: 20px 16px 0px;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    border: 1px solid transparent;
+}
+
+.addon_single_dahjgajhda {
+    margin-bottom: 20px;
+}
+
+.addon_name_zcvsah {
+    font-family: Gilroy;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+}
+
+.customization_heading_jadb {
+    margin-bottom: 12px;
+    margin-top: 4px;
+    font-family: Gilroy;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+}
+
+.customize_item_name_zhjgcjg {
+
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.6);
+}
+
+.customize_item_image_fsfbs {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.customization_footer_dszfjzfgjhk {
+    padding: 12px 16px 15px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px -3px 20px 0px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+}
+
+.customization_footer_add_button_dsddzfgjhk {
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(27, 166, 114);
+    width: 100%;
+    transition: transform 0.1s ease-in;
+    min-width: 96px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 44px;
+    border: 0px;
+    border-radius: 12px;
+}
+
+.customization_footer_quantity_dssfklsagjhk {
+
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.92);
+
+
+}
+
+.customization_item__price_button_dasjk {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(2, 6, 12, 0.15);
+    height: 45px;
+    border-radius: 8px;
+    width: 150%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-around;
+    box-shadow: rgba(40, 44, 63, 0.08) 0px 3px 8px;
+}
+
+.already_addon_selected_sfkg {
+    font-family: Gilroy;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.6);
+
+}
+
+
+.already_addon_list_ajcjh {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    border: 1px solid transparent;
+}
+
+.already_addon_selected_final_price_sfkg {
+    font-family: Gilroy;
+
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: black;
+
+}
+
+
+.index-module_canvas__H2w7d {
+
+    position: fixed;
+    /* Changed from relative to fixed to float at the bottom */
+    bottom: 20px;
+    /* Distance from the bottom, adjust as needed */
+    right: 20px;
+    /* Distance from the right, adjust as needed */
+    width: 375px;
+    /* Adjust size if needed */
+    height: 667px;
+    /* Adjust size if needed */
+    pointer-events: none;
+    /* Keeps the canvas non-interactive */
+    z-index: 9999;
+    /* Ensures it appears above other elements */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Optional: Adds shadow for floating effect */
+    border-radius: 10px;
+    /* Optional: Adds rounded corners */
+}
+
+.Collapsible__contentOuter {
+    direction: ltr !important;
+}
+
+/* END Item page single Item */
+
+
