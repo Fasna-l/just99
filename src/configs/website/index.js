@@ -3,9 +3,10 @@
 export const WEBSITE_URL = "https://eatbro.in";
 
 export const GET_JUST99_BANNERS_URL =
-    "http://localhost:5000/api/banner";
+    "https://api.just99.online/api/banner";
+
 
 export const GET_JUST99_BRANCHES_URL =
-    "http://localhost:5000/api/branch/active";
+    "https://api.just99.online/api/branch/active";
 // Comment out the above and Uncomment the below line before building the files for Production
 // export const WEBSITE_URL = "https://" + window.location.hostname;

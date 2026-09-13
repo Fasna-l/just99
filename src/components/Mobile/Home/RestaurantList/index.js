@@ -32,7 +32,6 @@ class RestaurantList extends Component {
 		isHomeDelivery: true,
 		selectedBranchSlug:
   			localStorage.getItem("selectedBranchSlug") || "",
-		//selectedBranchSlug: "",
 		locationError: null,
 		locationLoading: false,
 	};
@@ -43,7 +42,6 @@ class RestaurantList extends Component {
     	this.handleExternalBranchChange
   	);
 		this.getAllRestaurantSliders();
-	//this.getAdminBranches();
 		this.getBranches();
 
 	if (localStorage.getItem("userPreferredSelection") === null) {
@@ -98,20 +96,11 @@ handleExternalBranchChange = (event) => {
     );
 };
 
-// handleExternalBranchChange = (event) => {
-//   const selectedBranchSlug = event.detail;
-
-//   this.setState({
-//     selectedBranchSlug,
-//   });
-// };
-
 	getBranches = () => {
     this.setState({
         loading: true,
 		selectedBranchSlug:
   			localStorage.getItem("selectedBranchSlug") || "",
-        //selectedBranchSlug: "",
     });
 
     return axios
@@ -138,14 +127,6 @@ handleExternalBranchChange = (event) => {
         }
     }
 );
-
-            // this.setState({
-            //     branches: response.data,
-            //     total: response.data.length,
-            //     no_restaurants:
-            //         response.data.length === 0,
-            //     loading: false,
-            // });
 
         })
         .catch((error) => {
@@ -383,20 +364,6 @@ continueToSelectedBranch = () => {
 
     window.top.location.href = selectedBranch.storeUrl;
 };
-// continueToSelectedBranch = () => {
-//     const selectedBranch = this.getSelectedBranch();
-
-//     if (!selectedBranch) {
-//         this.setState({
-//             locationError:
-//                 "Please select a branch to continue.",
-//         });
-//         return;
-//     }
-
-//     window.top.location.href =
-//         "https://just99.online/stores/carmelram-zogyopmwysd9dxe";
-// };
 
 	detectCurrentLocation = () => {
 		if (!navigator.geolocation) {
@@ -503,7 +470,6 @@ continueToSelectedBranch = () => {
 
 	renderBranchSelector = () => {
 	const { branches } = this.state;
-	// const { restaurants } = this.props;
 	const selectedBranch = this.getSelectedBranch();
 
 	const storeName =
@@ -562,7 +528,7 @@ continueToSelectedBranch = () => {
 
                         {branch.image ? (
                             <img
-                                src={`http://localhost:5000${branch.image}`}
+                                src={`https://api.just99.online${branch.image}`}
                                 alt={branch.name}
                                 className="branch-slider-image"
                             />
@@ -614,10 +580,6 @@ continueToSelectedBranch = () => {
         : "Open"}
 </div>
 
-                        {/* <div className="branch-slider-status">
-                            <span className="branch-status-dot"></span>
-                            Open
-                        </div> */}
 
                     </div>
 
@@ -948,28 +910,6 @@ continueToSelectedBranch = () => {
     </div>
 
 </div>
-
-    {/* <div className="why-just99-offer">
-
-        <div className="why-just99-offer-icon">
-            %
-        </div>
-
-        <div className="why-just99-offer-text">
-
-            <strong>
-                Exciting Offers Every Day!
-            </strong>
-
-            <small>
-                Great food at unbeatable prices.
-            </small>
-
-        </div>
-
-        <i className="si si-arrow-right why-just99-offer-arrow" />
-
-    </div> */}
 
 </div>
 
