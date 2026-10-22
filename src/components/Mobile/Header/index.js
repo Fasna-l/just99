@@ -317,7 +317,8 @@ handleOpenBranchDropdown = () => {
 
     <Link
       to="/my-account"
-      className="d-flex flex-column align-items-center justify-content-center"
+      className="header-action-link d-flex flex-column align-items-center justify-content-center"
+      //className="d-flex flex-column align-items-center justify-content-center"
       style={{
         color: "#fff",
         textDecoration: "none",
@@ -382,7 +383,8 @@ handleOpenBranchDropdown = () => {
 
     <Link
       to="/"
-      className="d-flex flex-column align-items-center justify-content-center"
+      className="header-action-link d-flex flex-column align-items-center justify-content-center"
+      //className="d-flex flex-column align-items-center justify-content-center"
       style={{
         color: "#fff",
         textDecoration: "none",

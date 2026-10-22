@@ -193,8 +193,13 @@
         transform 0.2s ease;
 }
 
+.branch-select-control:active {
+    transform: scale(0.98);
+}
 
 .branch-select-control:hover {
+    transform: translateY(-1px);
+
     box-shadow:
         0 6px 18px rgba(0, 0, 0, 0.16);
 }
@@ -1271,11 +1276,24 @@
 
     cursor: pointer;
 
-    transition: all 0.2s ease;
+    transition:
+        transform 0.15s ease,
+        box-shadow 0.15s ease;
+    
+    -webkit-tap-highlight-color: transparent;
+    /* transition: all 0.2s ease; */
+
 }
 
 .btn-preference:active {
     transform: scale(0.97);
+}
+
+.btn-preference:hover {
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.10);
 }
 
 .btn-preference.user-preferred {
@@ -1329,6 +1347,13 @@
 
     box-shadow:
         0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.branch-continue-button:hover {
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 7px 18px rgba(0, 0, 0, 0.15);
 }
 
 .branch-continue-button:disabled {
@@ -1746,6 +1771,83 @@
 
 .branch-slider-status-unavailable .branch-status-dot {
     background-color: #999;
+}
+
+/* =========================================================
+   MOBILE FOOTER HOVER / PRESS EFFECT
+   ========================================================= */
+
+.new-footer-item {
+    -webkit-tap-highlight-color: transparent;
+
+    transition:
+        transform 0.15s ease,
+        opacity 0.15s ease;
+}
+
+.new-footer-item:hover {
+    transform: translateY(-2px) scale(1.04);
+    opacity: 0.85;
+}
+
+.new-footer-item:active {
+    transform: scale(0.92);
+}
+
+/* =========================================================
+   WHY EATBRO - HOVER EFFECT
+   ========================================================= */
+
+.why-just99-feature {
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
+}
+
+.why-just99-feature:hover {
+    transform: translateY(-4px);
+}
+
+.why-just99-feature:hover .why-just99-icon {
+    transform: scale(1.08);
+
+    box-shadow:
+        0 5px 14px rgba(203, 32, 45, 0.15);
+}
+
+.why-just99-icon {
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.why-just99-feature:active {
+    transform: scale(0.96);
+}
+
+/* =========================================================
+   WHY EATBRO BANNERS - HOVER
+   ========================================================= */
+
+.why-just99-banner {
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.why-just99-banner:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 6px 16px rgba(0, 0, 0, 0.14);
+}
+
+.why-just99-banner:active {
+    transform: scale(0.98);
 }
 /* =========================================================
    SMALL PHONES
